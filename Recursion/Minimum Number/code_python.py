@@ -7,10 +7,9 @@ def find_min(array,swaps,min_num):
     length = len(array)
     for i in range(length-1):
         for j in range(i+1,length):
-            if array[i]>array[j]:
-                array[i],array[j]=array[j],array[i]
-                min_num=find_min(array, swaps-1, min_num);
-                array[i],array[j]=array[j],array[i]
+            array[i],array[j]=array[j],array[i]
+            min_num=find_min(array, swaps-1, min_num);
+            array[i],array[j]=array[j],array[i]
     return min_num
 
 def least_possible(array_elements,max_swaps_allowed):
