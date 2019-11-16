@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-//the solution present on the site is nicelly coded
-//one can also code the solution as provided
-//However it is not as appreciable as already provided
-#define ll long long
 ll minihelper(int*arr1,int size1,int*arr2,int size2){
 int curmaxindex=size1;
 ll curans=0,finalans=0;
