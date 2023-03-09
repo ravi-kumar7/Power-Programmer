@@ -13,6 +13,7 @@ Constraints :
 
 Sample Input:
 9
+
 0 7 2 5 4 7 1 3 6
 
 Sample Output:
